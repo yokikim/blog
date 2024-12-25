@@ -1,4 +1,4 @@
-baseURL: 'https://yokikim.github.io/testBlog/'
+baseURL: 'https://yokikim.github.io/blog/'
 languageCode: 'ko-kr'
 title: 'Poodle in the box'
 theme: "diary"
