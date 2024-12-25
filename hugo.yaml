@@ -1,0 +1,15 @@
+baseURL: 'https://yokikim.github.io/testBlog/'
+languageCode: 'ko-kr'
+title: 'Poodle in the box'
+theme: "diary"
+menus:
+  main:
+  - name: Home
+    pageRef: /
+    weight: 10
+  - name: Post
+    pageRef: /posts
+    weight: 20
+  - name: Article
+    pageRef: /articles
+    weight: 30

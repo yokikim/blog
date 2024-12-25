@@ -1,0 +1,8 @@
+baseURL = 'https://yokikim.github.io/testBlog/'
+languageCode = 'ko-kr'
+title = 'Poodle in the box'
+
+theme = "testTheme"
+
+sectionPagesMenu = 'main'
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on Poodle in the box</title>
+    <link>http://localhost:8888/testBlog/articles/</link>
+    <description>Recent content in Articles on Poodle in the box</description>
+    <generator>Hugo</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Tue, 24 Dec 2024 17:28:18 +0900</lastBuildDate>
+    <atom:link href="http://localhost:8888/testBlog/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TwoArticle</title>
+      <link>http://localhost:8888/testBlog/articles/twoarticle/</link>
+      <pubDate>Tue, 24 Dec 2024 17:28:18 +0900</pubDate>
+      <guid>http://localhost:8888/testBlog/articles/twoarticle/</guid>
+      <description>&lt;p&gt;two article&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OneArticle</title>
+      <link>http://localhost:8888/testBlog/articles/onearticle/</link>
+      <pubDate>Tue, 24 Dec 2024 17:28:13 +0900</pubDate>
+      <guid>http://localhost:8888/testBlog/articles/onearticle/</guid>
+      <description>&lt;p&gt;one article&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

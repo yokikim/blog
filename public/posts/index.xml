@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Poodle in the box</title>
+    <link>http://localhost:8888/testBlog/posts/</link>
+    <description>Recent content in Posts on Poodle in the box</description>
+    <generator>Hugo</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 25 Dec 2024 16:37:19 +0900</lastBuildDate>
+    <atom:link href="http://localhost:8888/testBlog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FourPost</title>
+      <link>http://localhost:8888/testBlog/posts/fourpost/</link>
+      <pubDate>Wed, 25 Dec 2024 16:37:19 +0900</pubDate>
+      <guid>http://localhost:8888/testBlog/posts/fourpost/</guid>
+      <description>&lt;p&gt;four post&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ThreePost</title>
+      <link>http://localhost:8888/testBlog/posts/threepost/</link>
+      <pubDate>Tue, 24 Dec 2024 17:18:39 +0900</pubDate>
+      <guid>http://localhost:8888/testBlog/posts/threepost/</guid>
+      <description>&lt;p&gt;three post&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TwoPost</title>
+      <link>http://localhost:8888/testBlog/posts/twopost/</link>
+      <pubDate>Tue, 24 Dec 2024 17:18:26 +0900</pubDate>
+      <guid>http://localhost:8888/testBlog/posts/twopost/</guid>
+      <description>&lt;p&gt;two post&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OnePost</title>
+      <link>http://localhost:8888/testBlog/posts/onepost/</link>
+      <pubDate>Tue, 24 Dec 2024 17:18:08 +0900</pubDate>
+      <guid>http://localhost:8888/testBlog/posts/onepost/</guid>
+      <description>&lt;p&gt;one post&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

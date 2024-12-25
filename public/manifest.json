@@ -1,0 +1,15 @@
+{
+  "name": "Poodle in the box",
+  "short_name": "Poodle in the box",
+  "start_url": "/testBlog/",
+  "scope": "/testBlog/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/testBlog/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
