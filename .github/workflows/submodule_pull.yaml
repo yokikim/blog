@@ -22,11 +22,14 @@ jobs:
             contents: write
             pull-requests: write
         steps:
-            - name: Checkout repository
+            - name: Checkout
+              uses: actions/checkout@v4
+        
+            - name: Checkout tools repo
               uses: actions/checkout@v4
               with:
-                token: ${{ secrets.GITHUB_TOKEN }}
-                submodules: recursive
+                repository: yokikim/postTest
+                path: content
               env:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             - name: Authorize Git
@@ -40,7 +43,6 @@ jobs:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             - name: Commit changes
               run: |
-                git add writings
                 git commit -m "Update submodule to latest commit"
                 git push origin main
                 env:
