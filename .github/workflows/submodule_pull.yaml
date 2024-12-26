@@ -1,9 +1,6 @@
 name: Pull posting submodule
 
 on:
-    push:
-      branches:
-        - main
     workflow_dispatch:
 
 jobs:
