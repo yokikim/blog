@@ -13,3 +13,10 @@ menus:
   - name: Article
     pageRef: /articles
     weight: 30
+
+markup:
+  goldmark:
+    renderer:
+      hardWraps: true
+      unsafe: false
+      xhtml: false
