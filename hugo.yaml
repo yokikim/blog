@@ -14,6 +14,10 @@ menus:
     pageRef: /articles
     weight: 30
 
+parser:
+  attribute:
+    block: true
+
 markup:
   goldmark:
     renderer:
