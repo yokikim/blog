@@ -46,6 +46,11 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Checkout post repo
+        uses: actions/checkout@v4
+        with:
+          repository: yokikim/postTest
+          path: content
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
