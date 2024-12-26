@@ -13,8 +13,10 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v4
               with:
-                token: ${{ secrets.PAT }}
+                # token: ${{ secrets.PAT }}
                 submodules: recursive
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             - name: Authorize Git
               run: |
                 git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
@@ -23,7 +25,7 @@ jobs:
               run: |
                 git submodule update  --init --recursive --remote -f
                 env:
-                GITHUB_TOKEN: ${{ secrets.PAT }}
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             - name: Commit changes
               run: |
                 git add writings
