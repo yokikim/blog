@@ -32,6 +32,9 @@ jobs:
                 path: content
               env:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            - name: install Git
+              run: |
+                sudo snap install git
             - name: Authorize Git
               run: |
                 git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
