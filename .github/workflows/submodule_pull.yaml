@@ -3,6 +3,18 @@ name: Pull posting submodule
 on:
     workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+
+defaults:
+  run:
+    shell: bash
+
 jobs:
     update-submodule:
         runs-on: ubuntu-latest
@@ -17,9 +29,6 @@ jobs:
                 submodules: recursive
               env:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            - name: Install Git
-              run: |
-                apt install -y git
             - name: Authorize Git
               run: |
                 git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
