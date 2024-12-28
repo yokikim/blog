@@ -16,6 +16,7 @@ menus:
     identifier: "article"
   - name: Book Review
     weight: 10
+    pageRef: /articles/books
     identifier: "article"
     parent: "article"
 
