@@ -2,10 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Poodle in the box</title>
-    <link>http://localhost:8888/testBlog/tags/</link>
+    <link>http://localhost:8888/blog/tags/</link>
     <description>Recent content in Tags on Poodle in the box</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <atom:link href="http://localhost:8888/testBlog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Dec 2024 14:34:29 +0900</lastBuildDate>
+    <atom:link href="http://localhost:8888/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github_Actions</title>
+      <link>http://localhost:8888/blog/tags/github_actions/</link>
+      <pubDate>Thu, 26 Dec 2024 14:34:29 +0900</pubDate>
+      <guid>http://localhost:8888/blog/tags/github_actions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Daily</title>
+      <link>http://localhost:8888/blog/tags/daily/</link>
+      <pubDate>Wed, 25 Dec 2024 17:17:00 +0900</pubDate>
+      <guid>http://localhost:8888/blog/tags/daily/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Moment</title>
+      <link>http://localhost:8888/blog/tags/moment/</link>
+      <pubDate>Wed, 25 Dec 2024 17:17:00 +0900</pubDate>
+      <guid>http://localhost:8888/blog/tags/moment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Draft</title>
+      <link>http://localhost:8888/blog/tags/draft/</link>
+      <pubDate>Fri, 20 Dec 2024 11:30:00 +0900</pubDate>
+      <guid>http://localhost:8888/blog/tags/draft/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
