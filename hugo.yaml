@@ -13,6 +13,11 @@ menus:
   - name: Article
     pageRef: /articles
     weight: 30
+    identifier: "article"
+  - name: Book Review
+    weight: 10
+    identifier: "article"
+    parent: "article"
 
 parser:
   attribute:
